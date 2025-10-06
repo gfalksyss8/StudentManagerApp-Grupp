@@ -10,8 +10,8 @@ Welcome to your new app.
 @code {
     public interface IStudent
     {
-        string addStudent();
-        string removeStudent();
+        public void addStudent() { }
+        public void removeStudent() { }
         //string editStudent();
     }  
 
@@ -20,18 +20,16 @@ Welcome to your new app.
         public required string Name { get; set; }
         public int Betyg { get; set; }
 
-        public string addStudent() {
-            return "x";
-        }
-
-        public string removeStudent() {
-            return "x";
-        }
-        
         List<Student> students = new List<Student> {
             new() { Name = "Arber", Betyg = 5},
             new() { Name = "Person", Betyg = 0},
         };
+        public static void addStudent(List<Student> students, string name, int betyg) {
+            students.Add(new Student() { Name = name, Betyg = betyg });
+        }
 
+        public void removeStudent() {
+            //students.Remove()
+        }
     }
 }
