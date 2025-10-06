@@ -5,3 +5,33 @@
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+
+
+@code {
+    public interface IStudent
+    {
+        string addStudent();
+        string removeStudent();
+        //string editStudent();
+    }  
+
+    public class Student : IStudent
+    {
+        public required string Name { get; set; }
+        public int Betyg { get; set; }
+
+        public string addStudent() {
+            return "x";
+        }
+
+        public string removeStudent() {
+            return "x";
+        }
+        
+        List<Student> students = new List<Student> {
+            new() { Name = "Arber", Betyg = 5},
+            new() { Name = "Person", Betyg = 0},
+        };
+
+    }
+}
