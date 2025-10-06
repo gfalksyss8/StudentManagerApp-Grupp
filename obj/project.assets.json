@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Gustav\\.nuget\\packages\\": {}
+    "/Users/lumacone/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustav\\Documents\\Newton\\StudentManagerApp\\StudentManagerApp.csproj",
+      "projectUniqueName": "/Users/lumacone/Documents/progg/Newton/StudentManagerApp-Grupp/StudentManagerApp.csproj",
       "projectName": "StudentManagerApp",
-      "projectPath": "C:\\Users\\Gustav\\Documents\\Newton\\StudentManagerApp\\StudentManagerApp.csproj",
-      "packagesPath": "C:\\Users\\Gustav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustav\\Documents\\Newton\\StudentManagerApp\\obj\\",
+      "projectPath": "/Users/lumacone/Documents/progg/Newton/StudentManagerApp-Grupp/StudentManagerApp.csproj",
+      "packagesPath": "/Users/lumacone/.nuget/packages/",
+      "outputPath": "/Users/lumacone/Documents/progg/Newton/StudentManagerApp-Grupp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gustav\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/lumacone/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/lumacone/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
